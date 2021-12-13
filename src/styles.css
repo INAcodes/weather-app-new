@@ -1,0 +1,60 @@
+body {
+  font-family: "Yuji Mai", serif;
+  background-image: url(../src/ouranos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid #5677a3;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+h2 {
+  text-align: center;
+  margin: 30px 60px;
+  color: rgb(22, 7, 63);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: rgb(22, 7, 63);
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+
+.weather-icon {
+  position: relative;
+  height: 64px;
+  width: 64px;
+  margin-right: 5px;
+  top: -20px;
+}
+.temperature {
+  color: rgb (33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+.units {
+  position: relative;
+  top: -34px;
+}
+.search-form {
+  margin-bottom: 20px;
+}
+.details {
+  position: relative;
+  right: -400px;
+  top: -75px;
+}
+#current-location-button {
+  margin-bottom: 20px;
+}

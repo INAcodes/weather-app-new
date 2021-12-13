@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap" rel="stylesheet" />
+        <title>weather-app by inna</title>
+        <meta charset="UTF-8" />
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <link href="src/styles.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous" />
+    </head>
+
+    <body>
+        <div class="container">
+            <form class="search-form" id="search-form">
+                <div class="row">
+                    <div class="col-6">
+                        <input type="search" placeholder="Search for a city..." autofocus="on" autocomplete="off"
+                            class="form-control shadow-sm" id="cityInput" />
+                    </div>
+                    <div class="col-3">
+                        <input type="submit" value="search" class="form-control btn btn-primary shadow-sm" />
+                    </div>
+                    <div class="col-3">
+                        <button type="button" class="btn btn-success" id="current-location-button">Current
+                        </button>
+                    </div>
+                </div>
+        </div>
+        </form>
+        <h2 id=city>
+            Athens, Grecce
+        </h2>
+        <ul>
+            <li id="month"> November 28, 2021</li>
+            <li id="day">Tuesday</li>
+            <li id="time">17:20 </li>
+            <li id="description">Partly cloudy</li>
+        </ul>
+        <div class="row">
+            <div class="col-6">
+                <div class="clearfix">
+                    <div class="float-left weather-icon">
+                    </div>
+                    <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" class="weather-icon" alt="cloudy" />
+
+                    <span class="temperature" id="temp">21</span>
+                    <span class="units">
+                        <a href="#" id="celsius-link">°C </a>
+
+                        <div class="col-6">
+                            <ul class="details">
+                                <li id="precipitation">
+                                    Precipitation:10%
+                                </li>
+                                <li id="humidity">
+                                    Humidity : 40%
+                                </li>
+                                <li id="wind">
+                                    Wind : 4km /h
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <hr />
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    Wed
+                </div>
+                <div class="col-2">
+                    Thu
+                </div>
+                <div class="col-2">
+                    Fri
+                </div>
+                <div class="col-2">
+                    Sat
+                </div>
+                <div class="col-2">
+                    Sun
+                </div>
+                <div class="col-2">
+                    Mon
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    ⛈
+                </div>
+                <div class="col-2">
+                    🌧
+                </div>
+                <div class="col-2">
+                    🌧
+                </div>
+                <div class="col-2">
+                    🌦
+                </div>
+                <div class="col-2">
+                    🌦
+                </div>
+                <div class="col-2">
+                    🌤
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
+                            6℃
+                        </div>
+                        <div class="col-2">
+                            8℃
+                        </div>
+                        <div class="col-2">
+                            9℃
+                        </div>
+                        <div class="col-2">
+                            11℃
+                        </div>
+                        <div class="col-2">
+                            10℃
+                        </div>
+                        <div class="col-2">
+                            15℃
+                        </div>
+                        <script src="src/index.js"></script>
+
+    </body>
+
+</html>
