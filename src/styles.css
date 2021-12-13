@@ -1,6 +1,6 @@
 body {
   font-family: "Yuji Mai", serif;
-  background-image: url(../src/ouranos.jpg);
+  background-image: url(".../src/ouranos.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   border: 1px solid #5677a3;
